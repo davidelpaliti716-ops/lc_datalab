@@ -21,6 +21,26 @@ def main():
     print(f"Registro: {registro_id}")
     print(f"Valor: {valor}")
     print(f"Clasificación: {clasificacion}")
+    
+    print("DataLab | Semana 2")
+    print("Procesamientos de registros con multiples condiciones.")
+    
+    registro_id = input("Ingrese el indentificador del registro:")
+    valor = float(input("ingrese el valor del registro: "))
+    # Regla de negocio amnpliada usando if, elif y else:
+    if valor <10:
+        clasificacion= "BAJO"
+    elif valor ==10:
+        clasificacion = "LIMITE"
+    elif 10 < valor <= 50:
+        clasificacion = "NORMAL"
+    else:
+        clasificacion="ALTO"
+        
+    print ("---Resultado---")
+    print(f"Registro:{registro_id}")
+    print(f"Valor: {valor}")
+    print(f"Clasificacion: {clasificacion}")
 
 
 if __name__ == "__main__":
