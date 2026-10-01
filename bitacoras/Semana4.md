@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Solucion de preguntas
 # Analisis del ejercicio 1
 ## ¿Cuantas veces se ejecuta?
@@ -38,3 +39,14 @@
 >Porque si copias y pegas el mismo código de validación en varios lugares, creas redundancia. Si descubres un error o necesitas cambiar la regla de negocio, tendrías que corregir manualmente cada fragmento copiado, lo que aumenta el riesgo de cometer errores u olvidar alguna sección.
 ## ¿Cómo contribuye esta arquitectura al crecimiento de DataLab?
 >Permite que el sistema sea escalable y modular. A medida que DataLab crezca y necesite procesar cientos de datos, conectar bases de datos o generar reportes complejos, tener las funciones separadas en módulos y la lógica de repetición organizada facilitará añadir nuevas características sin que el código se vuelva imposible de mantener.
+=======
+1. ¿Cuántas veces se ejecuta `validar_nombre()`?
+> 5
+2. ¿Cuántas veces se ejecuta el `if`?
+>5
+3. ¿Qué parte cambia en cada iteración?
+>los numeros
+4. ¿Qué parte permanece igual?
+>ingrese el nombre 
+
+>>>>>>> 830c261552f72c1972e3c0cdae76c8f7272b5906
