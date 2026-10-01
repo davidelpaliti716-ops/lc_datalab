@@ -15,7 +15,7 @@
 
 >La llamada a la función (validar_nombre(nombre)), que se ejecuta de la misma forma en cada vuelta.
 
->La lógica condicional y los mensajes ("Nombre válido" y "Nombre inválido"), que se imprimen bajo la misma regla estructural sin importar cuántas veces corra el ciclo.
+><La lógica condicional y los mensajes (" Nombre válido" y " Nombre inválido"), que se imprimen bajo la misma regla estructural sin importar cuántas veces corra el ciclo.
 ## ¿Que problema resuelve un ciclo?
 >Resuelve el problema de la repeticion manual de codigo. Sin un ciclo, tendrías que escribir o copiar la misma instruccion una y otra vez (por ejemplo, escribir input() diez veces). El ciclo automatiza la repeticion de un bloque de codigo tantas veces como sea necesario de forma limpia y eficiente.
 ## ¿Por que range(5) produce 5 iteraciones?
